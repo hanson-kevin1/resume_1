@@ -1,0 +1,125 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+header {
+	background: url(images/o-MINNEAPOLIS8.png);
+	height: 800px;
+}
+
+h1 {
+	font-size: 5.5em;
+	color: white;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	margin-top: 260px;
+	margin-left: 230px;
+	margin-right: 230px;
+	padding: 3px 30px 3px 30px;
+	border: solid 3px white;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+	margin-left: 12px;
+	font-family: Montserrat, Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: white;
+	margin-top: 100px;
+	margin-left: 500px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 14px;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+li {
+	list-style-type: square;
+}
+
+.qual-pro, .edu {
+	background-color: #E9E9E9;
+	padding: 65px 175px 65px 175px;
+}
+.cor-comp, .pro-exp {
+	padding: 65px 175px 65px 175px;
+}
+
+.company-name, .location, .date {
+	display: inline;
+	margin-right: 3px;
+}
+
+.company-section {
+	margin-bottom: 25px;
+}
+
+.company-name {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.date {
+	font-weight: bold;
+}
+
+.job-title {
+	font-weight: bold;
+	margin-left: 25px;
+}
+
+.main {
+	margin-left: 45px;
+}
+
+.company-description {
+	font-style: italic;
+}
+
+#section1, #section2, #section3, #section4 {
+	margin-bottom: 15px;
+}
+
+#wrapper {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav li:hover {
+	background-color: #bdbdbd;
+}
